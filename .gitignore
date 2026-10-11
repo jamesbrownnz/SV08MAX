@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Python virtual environments
+*-env/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Caches & Package managers
+.cache/
+pip-wheel-metadata/
+
+# Runtime logs
+*.log
+printer_data/logs/*
+!printer_data/logs/.gitkeep
+
+# User print files & 3D models
+*.gcode
+*.stl
+*.STL
+printer_data/gcodes/*
+!printer_data/gcodes/.gitkeep
+.thumbs/
+
+# Backup, autosave & editor swap files
+*.bak
+*.bkp
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Remote development & AI assistant artifacts
+.vscode-server/
+.gemini/
+.copilot/
+.dotnet/
+
